@@ -8,13 +8,14 @@ import {
   LinkedinFilled,
   GithubFilled,
 } from "@ant-design/icons";
+import Logo from "./Logo";
 const { Header } = Layout;
 
 const HeaderPage = () => {
   return (
-    <Header className="flex fixed w-full items-center z-10 justify-between bg-white px-28 text-lg">
+    <Header className="flex fixed w-full items-center z-10 justify-between bg-white px-36 text-lg">
       <div>
-        <img src={logo} className="nav-logo" alt="backRoads" />
+        <Logo />
       </div>
       <ul className="flex space-x-4">
         {pageLinks.map((link) => (

@@ -8,10 +8,12 @@ const Introduction = () => {
         background: `linear-gradient(rgba(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)), url(${banner}) center/cover no-repeat`,
       }}
     >
-      <h1 className="text-7xl font-bold uppercase">backroads app</h1>
+      <h1 className="text-7xl font-bold uppercase flex">
+        Welcome to <p className="text-[#2caeba] mx-4">XT</p> Profile
+      </h1>
       <p className="mt-4 text-base">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae explicabo
-        debitis est autem dicta.
+        This website briefly introduces personal information. Thank you for
+        following.
       </p>
       <a
         href="#tours"

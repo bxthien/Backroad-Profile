@@ -5,8 +5,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import MyExp from "./components/MyExp";
 import TopRepo from "./components/TopRepo";
-
-const { Footer } = Layout;
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
       <AboutMe />
       <MyExp />
       <TopRepo />
-      <Footer>bye</Footer>
+      <Footer />
     </Layout>
   );
 }

@@ -6,7 +6,7 @@ const MyExp = () => {
   return (
     <div className="bg-white py-20">
       <Title title="personal" subTitle="experience" />
-      <div className="px-28 grid grid-cols-3 gap-8">
+      <div className="px-36 grid grid-cols-3 gap-8">
         {services.map((service) => (
           <article className="items-center flex">
             <span className="flex p-2 text-3xl w-20 h-full items-center justify-center bg-[#2caeba] rounded-lg">

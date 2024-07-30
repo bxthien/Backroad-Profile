@@ -5,7 +5,7 @@ import { Button } from "antd";
 
 const AboutMe = () => {
   return (
-    <div className="px-28 my-20">
+    <div className="px-36 my-20">
       <Title title="About" subTitle="Me" />
       <div className="grid grid-cols-2 gap-x-8 mb-0">
         <div className="relative before:border-8 before:absolute before:border-[#2caeba] before:w-[100%] before:h-full before:-top-6 before:-left-6">
