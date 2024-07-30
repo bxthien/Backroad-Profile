@@ -1,6 +1,4 @@
-import React from "react";
 import { Layout } from "antd";
-import logo from "../assets/svgs/logo.svg";
 import { pageLinks } from "../data";
 import { Space } from "antd";
 import {
@@ -9,6 +7,7 @@ import {
   GithubFilled,
 } from "@ant-design/icons";
 import Logo from "./Logo";
+
 const { Header } = Layout;
 
 const HeaderPage = () => {

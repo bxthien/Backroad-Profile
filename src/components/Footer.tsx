@@ -1,6 +1,4 @@
 import React from "react";
-import { pageLinks } from "../data";
-import logo from "../assets/svgs/logo.svg";
 import Logo from "./Logo";
 
 const Footer = () => {
